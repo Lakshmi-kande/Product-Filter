@@ -123,7 +123,7 @@ let products = {
     
     elements.forEach((element) => {
       
-      if (value == "all") {
+      if (value === "all") {
         element.classList.remove("hide");
       } else {
         
